@@ -8,6 +8,7 @@ This repo accompanies the paper [Upper-Bound Energy Minimization to Search for S
   - The models are available as part of a GitHub Release. Run `bash download.sh` to download them
   - See [model_demonstration.ipynb](https://github.com/jlaw9/upper-bound-energy-gnn/blob/main/model_demonstration.ipynb) for how to load the model and make energy predictions.
 - Structure datasets and energies: `inputs`
+  - Because of their size, the structures are also part of the GitHub Release.
 - Preprocess structures and train a new model: `preprocess.py` and `train_model.py` (see below)
 - Top candidate structures and features: `paper_results`
 
