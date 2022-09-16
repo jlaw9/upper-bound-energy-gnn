@@ -5,6 +5,7 @@ This repo accompanies the paper [Upper-Bound Energy Minimization to Search for S
 
 ## Contents
 - Pre-trained models: `pretrained_models`
+  - The models are available as part of a GitHub Release. Run `bash download.sh` to download them
   - See [model_demonstration.ipynb](https://github.com/jlaw9/upper-bound-energy-gnn/blob/main/model_demonstration.ipynb) for how to load the model and make energy predictions.
 - Structure datasets and energies: `inputs`
 - Preprocess structures and train a new model: `preprocess.py` and `train_model.py` (see below)
@@ -12,21 +13,24 @@ This repo accompanies the paper [Upper-Bound Energy Minimization to Search for S
 
 ### Data and code organized by figure
 - Figure 1: Initial surrogate model development
-  c. GNN trained on ICSD and unrelaxed hypothetical structures: `pretrained_models/icsd_and_unrel_battery`
-- Figure 3: Effect of volume-relaxed dataset on energy and surrogate model performanc
+  c. GNN trained on ICSD and unrelaxed hypothetical structures: `pretrained_models/icsd_and_unrel_battery.hdf5`
+- Figure 3: Effect of volume-relaxed dataset on energy and surrogate model performance
   a. Can be recreated with the volume-relaxed and fully-relaxed energies in `inputs`
-  b. GNN trained on ICSD, fully-relaxed, and volume-relaxed structures: `pretrained_models/icsd_and_full_vol_battery`
+  b. GNN trained on ICSD, fully-relaxed, and volume-relaxed structures: `pretrained_models/icsd_and_full_vol_battery.hdf5`
     - Code: `train_model.py`
   c. Learning curves.
     - Code: `src/learning_curves`. The submission script may need to be modified for your HPC system
 - Figure 4: DFT confirmation of predicted stable structures
-  - See `paper_results/dft_confirmation.csv`
+  - See `paper_results/dft_confirmation.csv` for the DFT results of 1,707 structures
 - Figure 5: Functional features of the predicted stable structures relevant for battery applications
   - See `paper_results/top_candidate_features.csv`
 - Figure 6: Crystal structures
   - See `paper_results/relaxed_structures.tar.gz`
 - Figure 7: Reinforcement Learning (RL) structure optimization
   - See https://github.com/jlaw9/rl_materials
+
+> Note: To reproduce the results in Figures 4, 5, 6, and 7, use the model `pretrained_models/20220607_icsd_full_and_vol_battery.hdf5`
+> This model was trained on a version of the input data without the deduplication filter mentioned in the results
 
 ## Installation
 
