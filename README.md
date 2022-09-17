@@ -1,4 +1,7 @@
 # upper-bound-energy-gnn
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7089031.svg)](https://doi.org/10.5281/zenodo.7089031)
+
 GNN for predicting an upper bound of the relaxed energy for a given unrelaxed structure
 
 This repo accompanies the paper [Upper-Bound Energy Minimization to Search for Stable Functional Materials with Graph Neural Networks](), _chemRxiv_ 2022.
