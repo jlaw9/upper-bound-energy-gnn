@@ -1,5 +1,5 @@
 ## Download the pretraiend models and structure files from the github release
-github_release="https://github.com/jlaw9/upper-bound-energy-gnn/releases/download/v0.1"
+github_release="https://github.com/jlaw9/upper-bound-energy-gnn/releases/download/0.1"
 
 f="fully_relaxed.json.gz"
 echo "wget -O inputs/$f $github_release/$f"
