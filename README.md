@@ -28,6 +28,7 @@ This repo accompanies the paper [Upper-Bound Energy Minimization to Search for S
   - See `paper_results/dft_confirmation.csv` for the DFT results of 1,707 structures
 - Figure 5: Functional features of the predicted stable structures relevant for battery applications
   - See `paper_results/top_candidate_features.csv`
+  - See also `paper_results/top_candidates_all_criteria_pareto_front.csv` for the 61 structures at the pareto front of all 5 criteria.
 - Figure 6: Crystal structures
   - See `paper_results/relaxed_structures.tar.gz`
 - Figure 7: Reinforcement Learning (RL) structure optimization
