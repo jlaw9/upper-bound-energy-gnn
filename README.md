@@ -4,7 +4,7 @@
 
 GNN for predicting an upper bound of the relaxed energy for a given unrelaxed structure
 
-This repo accompanies the paper [Upper-Bound Energy Minimization to Search for Stable Functional Materials with Graph Neural Networks](), _chemRxiv_ 2022.
+This repo accompanies the paper [Upper-Bound Energy Minimization to Search for Stable Functional Materials with Graph Neural Networks](https://doi.org/10.1021/jacsau.2c00540), _JACS Au_ 2022.
 
 ## Contents
 - Pre-trained models: `pretrained_models`
@@ -107,9 +107,9 @@ python train_model.py --inputs inputs/preprocessed/scaled_inputs.p
 ```
 @article{law2022,
   title={Upper-Bound Energy Minimization to Search for Stable Functional Materials with Graph Neural Networks},
-  author={Law, Jeffrey N. and Pandey, Shubham and Gorai, Prashun and John, Peter St},
-  journal={chemRxiv},
+  author={Law, Jeffrey N and Pandey, Shubham and Gorai, Prashun and St. John, Peter C},
+  journal={JACS Au},
   year={2022},
-  doi = {}
+  publisher={ACS Publications}
 }
 ```
