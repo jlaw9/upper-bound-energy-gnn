@@ -108,8 +108,10 @@ python train_model.py --inputs inputs/preprocessed/scaled_inputs.p
 @article{law2022,
   title={Upper-Bound Energy Minimization to Search for Stable Functional Materials with Graph Neural Networks},
   author={Law, Jeffrey N and Pandey, Shubham and Gorai, Prashun and St. John, Peter C},
-  journal={JACS Au},
-  year={2022},
-  publisher={ACS Publications}
+  journal={J. Amer. Chemical Soc. Au},
+  year={2023},
+  publisher={ACS Publications},
+  volume = {3},
+  pages = {113}
 }
 ```
